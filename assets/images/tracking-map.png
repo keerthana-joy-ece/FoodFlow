@@ -1,0 +1,17 @@
+// ...existing code...
+<View style={styles.mapRoad1} />
+<View style={styles.mapRoad2} />
+<View style={styles.mapRoad3} />
+<View style={styles.routeLine} />
+<View style={styles.mapLabel}>
+  <Text style={styles.mapEmoji}>🏪</Text>
+  <Text style={styles.mapText}>Restaurant</Text>
+</View>
+<View style={styles.deliveryPin}>
+  <Text style={styles.mapEmoji}>🚚</Text>
+</View>
+<View style={styles.destinationPin}>
+  <Text style={styles.mapEmoji}>📍</Text>
+  <Text style={styles.mapText}>You</Text>
+</View>
+// ...existing code...

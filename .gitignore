@@ -39,3 +39,14 @@ yarn-error.*
 # generated native folders
 /ios
 /android
+# Environment and secret files
+.env
+.env.*
+!.env.example
+
+# Firebase service account keys
+*service-account*.json
+*-adminsdk-*.json
+
+# Local editor files
+.vscode/
